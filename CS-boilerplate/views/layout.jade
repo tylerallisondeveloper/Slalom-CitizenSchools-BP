@@ -2,6 +2,13 @@ doctype html
 html
   head
     title= title
+    link
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+    link(rel='stylesheet', href='/stylesheets/header.css')
+    link(rel='stylesheet', href='/stylesheets/footer.css')
+  body.page-wrapper
+    div#header-wrapper.wrapper
+      include partials/header
     block content
+    div#footer-wrapper.wrapper
+      include partials/footer

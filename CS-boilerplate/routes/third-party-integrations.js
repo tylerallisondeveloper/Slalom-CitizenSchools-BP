@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Think It, Build It, Deploy It' });
+  res.send('respond with Instagram data');
 });
 
 module.exports = router;
