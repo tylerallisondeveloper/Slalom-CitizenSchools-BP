@@ -1,5 +1,6 @@
+
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -9,4 +10,36 @@ a {
 
 .wrapper {
   position: relative;
+  
+}
+
+/**
+ *  Device Breakpoints
+ *
+ **/
+
+/*Desktop*/
+@media (min-width: 737px) {
+  body{
+    min-width: 1200px;
+    background-color: firebrick;
+  }
+}
+/*Tablet*/
+@media (min-width: 737px ) and (max-width: 1200px){
+  body{
+    min-width: 1000px;
+    background-color: #ffff00;
+  }
+}
+/*Mobile*/
+@media (max-width: 736px){
+  html, body{
+    overflow-x: hidden;  
+  }
+  
+  body{
+    width: 100%;
+    background-color: tomato;
+  }
 }
