@@ -1,21 +1,19 @@
-#footer
-  div#content
-    
-  
-  section#feedback-form
-    form(name="suggestionsForm")
-      div
-        input#contact-name(type="text", name="name-field", placeholder="Name")
-      div
-        input#contact-email(type="email", name="email-field", placeholder="Email")
-      div
-        textarea#contact-message(name="message-field", placeholder="Message")
-      div
-        div#form-actions
-          div
-            ul.actions
-              li
-                input(type="submit", value="send")
-              li
-                input(type="reset", value="reset")
-include scripts                  
+.footer-wrapper
+  #footer
+    div#content
+    section#feedback-form
+      form(name="suggestionsForm")
+        div
+          input#contact-name(type="text", name="name-field", placeholder="Name")
+        div
+          input#contact-email(type="email", name="email-field", placeholder="Email")
+        div
+          textarea#contact-message(name="message-field", placeholder="Message")
+        div
+          div#form-actions
+            div
+              ul.actions
+                li
+                  input(type="submit", value="send")
+                li
+                  input(type="reset", value="reset")

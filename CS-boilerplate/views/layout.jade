@@ -1,9 +1,13 @@
 doctype html
 html
- include partials/head
-  body.page-wrapper
-    div#header-wrapper.wrapper
-      include partials/header
-    block content
-    div#footer-wrapper.wrapper
-      include partials/footer
+  include partials/head
+  body
+    .off-canvas-wrap(data-offcanvas)
+      .inner-wrap
+        include partials/header
+        section.main-section
+          div.full-height
+            block content
+        include partials/footer
+        a.exit-off-canvas
+  include partials/scripts

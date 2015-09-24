@@ -13,19 +13,19 @@ a {
   
 }
 
-/**
+*
  *  Device Breakpoints
  *
- **/
+ *
 
-/*Desktop*/
+Desktop
 @media (min-width: 737px) {
   body{
     min-width: 1200px;
     background-color: firebrick;
   }
 }
-/*Tablet*/
+Tablet
 @media (min-width: 737px ) and (max-width: 1200px){
   body {
     min-width: 1000px;
@@ -48,7 +48,7 @@ a {
     font-size: 1.75em;
   }
 }
-/*Mobile*/
+Mobile
 @media (max-width: 736px){
   html, body{
     overflow-x: hidden;  
