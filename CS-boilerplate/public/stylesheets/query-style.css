@@ -35,6 +35,10 @@
 /*}*/
 
 
+
+
+
+
 /*Medium screens*/
 @media only screen and (orientation: portrait) and (min-width: 40.063em) {
   body {
@@ -46,12 +50,14 @@
   body {
     background-color: #ffff00;
   }
-  /*#header-wrapper {*/
-    /*background: url("../images/banner.jpg") center center;*/
-    /*background-size: cover;*/
-    /*background-color: #EFEFEF;*/
-    /*padding: 6em 2em;*/
-  /*}*/
+  
+  #header-wrapper {
+    background: url("../images/banner.jpg") center center;
+    background-size: cover;
+    background-color: #EFEFEF;
+    padding: 6em 2em;
+  }
+  
   #nav {
     position: absolute;
     width: 100%;
@@ -77,12 +83,14 @@
     background-color: fuchsia;
     
   }
-  /*#header-wrapper {*/
-    /*background: url("../images/banner.jpg") center center;*/
-    /*background-size: cover;*/
-    /*background-color: #EFEFEF;*/
-    /*padding: 6em 2em;*/
-  /*}*/
+  
+  #header-wrapper {
+    background: url("../images/banner.jpg") center center;
+    background-size: cover;
+    background-color: #EFEFEF;
+    padding: 6em 2em;
+  }
+  
   #nav-section {
     position: absolute;
     width: 100%;
@@ -107,12 +115,14 @@
   body {
     background-color: turquoise;
   }
-  /*#header-wrapper {*/
-    /*background: url("../images/banner.jpg") center center;*/
-    /*background-size: cover;*/
-    /*background-color: #EFEFEF;*/
-    /*padding: 6em 2em;*/
-  /*}*/
+  
+  #header-wrapper {
+    background: url("../images/banner.jpg") center center;
+    background-size: cover;
+    background-color: #EFEFEF;
+    padding: 6em 2em;
+  }
+  
   #nav {
     position: absolute;
     width: 100%;
