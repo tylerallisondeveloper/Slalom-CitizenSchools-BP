@@ -8,36 +8,39 @@
   background: url("./images/overlay.png");
 }
 
-#logo {
-  position: absolute;
-  height: 5em;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  margin-top: -1em;
+/*#logo {*/
+  /*position: absolute;*/
+  /*height: 5em;*/
+  /*top: 50%;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+  /*margin-top: -1em;*/
 
-}
+/*}*/
 
-#logo h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-}
+/*#logo h1 {*/
+  /*font-weight: 900;*/
+  /*text-transform: uppercase;*/
+/*}*/
 
-#logo h1 a {
-  color: #fff;
-}
+/*#logo h1 a {*/
+  /*color: #fff;*/
+/*}*/
 
-#logo p {
-  color: #eee;
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
-}
-
+/*#logo p {*/
+  /*color: #eee;*/
+  /*color: rgba(255, 255, 255, 0.5);*/
+  /*text-transform: uppercase;*/
+/*}*/
 
 
 /*Medium screens*/
-@media only screen and (orientation: landscape) and (min-width: 40.063em) { }
+@media only screen and (orientation: portrait) and (min-width: 40.063em) {
+  body {
+    background-color: #ffff00;
+  }
+}
 
 @media only screen and (orientation: landscape) and (min-width: 40.063em) and (max-width: 64em) {
   body {
@@ -49,10 +52,25 @@
     background-color: #EFEFEF;
     padding: 6em 2em;
   }
+  #nav {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /*Large screens*/
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+  #nav-section li a:not(.button) {
+    background: transparent;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+  }
+
+  #nav-section li a:not(.button):hover {
+    background: transparent;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+  }
+} /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
   body {
@@ -64,6 +82,21 @@
     background-size: cover;
     background-color: #EFEFEF;
     padding: 6em 2em;
+  }
+  #nav-section {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+
+  #nav-section li a:not(.button) {
+    background: transparent;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+  }
+
+  #nav-section li a:not(.button):hover {
+    background: transparent;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
   }
 } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
@@ -79,5 +112,10 @@
     background-size: cover;
     background-color: #EFEFEF;
     padding: 6em 2em;
+  }
+  #nav {
+    position: absolute;
+    width: 100%;
+    text-align: center;
   }
 }
