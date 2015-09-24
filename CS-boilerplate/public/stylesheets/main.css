@@ -1,3 +1,37 @@
 .full-height {
   height: 100%;
 }
+
+/*Small screens*/
+@media only screen and (max-width: 40em) {
+  body {
+    background-color: tomato;
+  }
+}
+
+/*Medium screens*/
+@media only screen and (min-width: 40.063em) { }
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  body {
+    background-color: #ffff00;
+  }
+}
+
+/*Large screens*/
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  body {
+    background-color: fuchsia;
+  }
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/*XLarge screens*/
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+  body {
+    background-color: turquoise;
+  }
+}
