@@ -27,9 +27,25 @@ a {
 }
 /*Tablet*/
 @media (min-width: 737px ) and (max-width: 1200px){
-  body{
+  body {
     min-width: 1000px;
     background-color: #ffff00;
+  }
+  
+  #header {
+    padding: 10em 0;
+  }
+  
+  #header-wrapper {
+    
+  }
+
+  #logo {
+    margin-top: -0.5em !important;
+  }
+
+  #logo h1 {
+    font-size: 1.75em;
   }
 }
 /*Mobile*/
@@ -41,5 +57,17 @@ a {
   body{
     width: 100%;
     background-color: tomato;
+  }
+
+  #page-wrapper {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    padding-bottom: 1px;
   }
 }
