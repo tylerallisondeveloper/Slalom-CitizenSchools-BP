@@ -8632,11 +8632,12 @@ th.hide-for-touch {
   color: #F8F8F8;
   color: rgba(255, 255, 255, 0.5);
 }
-#footer-wrapper #footer {
+
+#footer {
   position: relative;
   text-shadow: 1px 1px 0 #fff;
   background-color: #fff;
-  background-image: url("images/bg03.png"), url("images/bg02.png");
+  background-image: url("./images/bg03.png"), url("./images/bg02.png");
   background-repeat: no-repeat, repeat;
   background-size: 100% 15em, auto auto;
   background-position: top center, top left;

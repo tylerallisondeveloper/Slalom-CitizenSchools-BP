@@ -1,0 +1,60 @@
+#footer-wrapper {
+  background: #282b34;
+  color: #eee;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#footer {
+  position: relative;
+  text-shadow: 1px 1px 0 #fff;
+  background-color: #fff;
+  background-image: url("images/bg03.png"), url("images/bg02.png");
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 15em, auto auto;
+  background-position: top center, top left;
+}
+
+
+/*#footer-wrapper form input[type="text"],*/
+/*#footer-wrapper form input[type="email"],*/
+/*#footer-wrapper form input[type="password"],*/
+/*#footer-wrapper form select,*/
+/*#footer-wrapper form textarea {*/
+  /*background: #ccc;*/
+  /*box-shadow: none;*/
+/*}*/
+
+
+/*#footer-wrapper form input[type="text"]:focus,*/
+/*#footer-wrapper form input[type="email"]:focus,*/
+/*#footer-wrapper form input[type="password"]:focus,*/
+/*#footer-wrapper form select:focus,*/
+/*#footer-wrapper form textarea:focus {*/
+  /*background: #fff;*/
+/*}*/
+
+/*#footer-wrapper input[type="button"],*/
+/*#footer-wrapper input[type="submit"],*/
+/*#footer-wrapper input[type="reset"],*/
+/*#footer-wrapper button,*/
+/*#footer-wrapper .button {*/
+  /*color: #fff;*/
+  /*box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);*/
+/*}*/
+
+/*#footer-wrapper input[type="button"]:hover,*/
+/*#footer-wrapper input[type="submit"]:hover,*/
+/*#footer-wrapper input[type="reset"]:hover,*/
+/*#footer-wrapper button:hover,*/
+/*#footer-wrapper .button:hover {*/
+  /*color: #fff;*/
+  /*box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);*/
+/*}*/
+
+/*#footer-wrapper input[type="button"]:active,*/
+/*#footer-wrapper input[type="submit"]:active,*/
+/*#footer-wrapper input[type="reset"]:active,*/
+/*#footer-wrapper button:active,*/
+/*#footer-wrapper .button:active {*/
+  /*box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);*/
+}
