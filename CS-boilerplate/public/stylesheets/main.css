@@ -8642,5 +8642,9 @@ th.hide-for-touch {
   background-size: 100% 15em, auto auto;
   background-position: top center, top left;
 }
+#footer .partners-logos {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*# sourceMappingURL=main.css.map */
