@@ -1,29 +1,34 @@
+.full-height{
+  height: 100%;
+}
+
 /*Small screens*/
 @media only screen {
   body {
-    background-color: deeppink;
+    background-color: $deep-pink;
   }
 } /* Define mobile styles */
+
 
 /*Medium screens*/
 @media only screen and (orientation: portrait) and (min-width: 40.063em) {
   body {
-    background-color: #ffff00;
+    background-color: $yellow;
   }
 }
 
 @media only screen and (orientation: landscape) and (min-width: 40.063em) and (max-width: 64em) {
   body {
-    background-color: #ffff00;
+    background-color: $yellow;
   }
-  
+
   #header-wrapper {
     background: url("../images/banner.jpg") center center;
     background-size: cover;
-    background-color: #EFEFEF;
+    background-color: $backgroud-grey;
     padding: 6em 2em;
   }
-  
+
   #nav {
     position: absolute;
     width: 100%;
@@ -67,7 +72,6 @@
   }
 }
 
-/*Large screens*/
 @media only screen and (min-width: 64.063em) {
   #nav-section li a:not(.button) {
     background: transparent;
@@ -119,16 +123,16 @@
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
   body {
     background-color: fuchsia;
-    
+
   }
-  
+
   #header-wrapper {
     background: url("../images/banner.jpg") center center;
     background-size: cover;
     background-color: #EFEFEF;
     padding: 6em 2em;
   }
-  
+
   #nav-section {
     position: absolute;
     width: 100%;
@@ -189,14 +193,14 @@
   body {
     background-color: turquoise;
   }
-  
+
   #header-wrapper {
     background: url("../images/banner.jpg") center center;
     background-size: cover;
     background-color: #EFEFEF;
     padding: 6em 2em;
   }
-  
+
   #nav {
     position: absolute;
     width: 100%;
