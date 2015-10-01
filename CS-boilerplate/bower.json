@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "foundation": "latest",
+    "font-awesome": "latest",
     "jquery": ">= 2.1.0",
     "modernizr": ">= 2.7.2",
     "fastclick": ">=0.6.11",
