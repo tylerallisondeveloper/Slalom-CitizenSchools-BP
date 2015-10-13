@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-all": "npm install && bundle install && bower install",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "testing": "./test.sh"
   },
   "dependencies": {
     "grunt": "^0.4.5",
