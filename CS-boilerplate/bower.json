@@ -2,7 +2,7 @@
   "name": "foundation",
   "version": "0.0.1",
   "dependencies": {
-    "foundation": "latest",
+    "foundation": "~5.4.7",
     "font-awesome": "latest",
     "jquery": ">= 2.1.0",
     "modernizr": ">= 2.7.2",

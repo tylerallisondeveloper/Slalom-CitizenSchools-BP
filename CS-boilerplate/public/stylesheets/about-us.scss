@@ -28,4 +28,15 @@
       color: $white;
     }
   }
+  
+
+  #additional-content {
+    .fact-container {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    #clock-container {
+      margin-bottom: 30px;
+    }
+  }
 }
