@@ -13,5 +13,9 @@
   background-size: 100% 15em, auto auto;
   background-position: top center, top left;
 
-  .partners-logos {} 
+  .partners-logo {
+    img {
+      width: 50%; 
+    }
+  }
 }
