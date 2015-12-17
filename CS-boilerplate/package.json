@@ -1,12 +1,17 @@
 {
   "name": "CS-boilerplate",
   "version": "0.0.1",
+  "engines": {
+    "node": "0.12.7"
+
+  },
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-all": "npm install && bundle install && bower install",
     "start": "node ./bin/www",
     "testing": "./test.sh"
+
   },
   "dependencies": {
     "grunt": "^0.4.5",
@@ -22,6 +27,9 @@
     "express": "~4.13.1",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "nodemailer": "~1.10.0"
+
   }
+
 }
